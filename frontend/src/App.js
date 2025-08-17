@@ -428,31 +428,7 @@ const DeclarationSite = () => {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes floatUp {
-          0% { 
-            transform: translateY(0) rotate(0deg) scale(0);
-            opacity: 0;
-          }
-          10% {
-            transform: translateY(-10vh) rotate(36deg) scale(1);
-            opacity: 1;
-          }
-          90% {
-            transform: translateY(-90vh) rotate(324deg) scale(1);
-            opacity: 1;
-          }
-          100% { 
-            transform: translateY(-100vh) rotate(360deg) scale(0);
-            opacity: 0;
-          }
-        }
-        
-        @keyframes gradientShift {
-          0%, 100% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-        }
-      `}</style>
+
     </div>
   );
 };
